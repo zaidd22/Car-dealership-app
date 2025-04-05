@@ -54,5 +54,11 @@ def car_details(car_id):
         # Return 404 if car not found
         return "Car not found", 404
     
+
+@app.errorhandler(404)
+def page_not_found(e):
+    """Handle 404 error with a custom page"""
+    return render_template('404.html'), 404
+
 if __name__ == '__main__':
     app.run(debug=True)
