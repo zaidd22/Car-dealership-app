@@ -42,14 +42,14 @@ def home():
     # Render the home template with the filtered and sorted cars
     return render_template('home.html', cars=cars)
 
-# Route for car details
+# Route for car details page
 @app.route('/car/<int:car_id>')
 def car_details(car_id):
     """Display details of a specific car based on its id."""
     cars = load_cars()
     car = next((car for car in cars if car['id'] == car_id), None)
     if car:
-        return f"Car found with id {car_id}"
+        return render_template('details.html', car=car)
     else:
         # Return 404 if car not found
         return "Car not found", 404
