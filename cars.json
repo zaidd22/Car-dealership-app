@@ -3,12 +3,28 @@
         "id": 1,
         "make": "Toyota",
         "model": "Corolla",
-        "year": 2020,
-        "price": 20000,
+        "year": 2021,
+        "price": 21000,
         "description": "A reliable sedan."
     },
     {
         "id": 2,
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2022,
+        "price": 26000,
+        "description": "A comfortable midsize car."
+    },
+    {
+        "id": 3,
+        "make": "Toyota",
+        "model": "RAV4",
+        "year": 2020,
+        "price": 24000,
+        "description": "A versatile compact SUV."
+    },
+    {
+        "id": 4,
         "make": "Honda",
         "model": "Civic",
         "year": 2019,
@@ -16,147 +32,451 @@
         "description": "A popular compact car."
     },
     {
-        "id": 3,
-        "make": "Ford",
-        "model": "Fusion",
-        "year": 2018,
-        "price": 15000,
-        "description": "A comfortable mid-size sedan."
-    },
-    {
-        "id": 4,
-        "make": "Nissan",
-        "model": "Altima",
-        "year": 2021,
-        "price": 22000,
-        "description": "A feature-packed sedan with good fuel economy."
-    },
-    {
         "id": 5,
-        "make": "Hyundai",
-        "model": "Elantra",
-        "year": 2017,
-        "price": 12000,
-        "description": "A reliable and affordable compact car."
+        "make": "Honda",
+        "model": "Accord",
+        "year": 2022,
+        "price": 25000,
+        "description": "A midsize sedan with excellent fuel efficiency."
     },
     {
         "id": 6,
-        "make": "Kia",
-        "model": "Optima",
-        "year": 2016,
-        "price": 18000,
-        "description": "A stylish and feature-rich mid-size sedan."
+        "make": "Honda",
+        "model": "CR-V",
+        "year": 2021,
+        "price": 27000,
+        "description": "A popular compact SUV with good safety features."
     },
     {
         "id": 7,
-        "make": "Volkswagen",
-        "model": "Golf",
-        "year": 2015,
-        "price": 10000,
-        "description": "A fun-to-drive and fuel-efficient hatchback."
+        "make": "Ford",
+        "model": "Fusion",
+        "year": 2018,
+        "price": 22000,
+        "description": "A comfortable midsize sedan."
     },
     {
         "id": 8,
-        "make": "Subaru",
-        "model": "Impreza",
-        "year": 2014,
-        "price": 14000,
-        "description": "A safe and reliable compact car with all-wheel drive."
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2021,
+        "price": 28000,
+        "description": "An iconic sports car."
     },
     {
         "id": 9,
-        "make": "Mazda",
-        "model": "3",
-        "year": 2022,
-        "price": 25000,
-        "description": "A sporty and fun-to-drive compact car."
+        "make": "Ford",
+        "model": "Explorer",
+        "year": 2020,
+        "price": 35000,
+        "description": "A full-size SUV with excellent towing capacity."
     },
     {
         "id": 10,
-        "make": "Audi",
-        "model": "A4",
-        "year": 2013,
-        "price": 20000,
-        "description": "A luxurious and feature-rich compact luxury car."
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2022,
+        "price": 24000,
+        "description": "A comfortable midsize sedan."
     },
     {
         "id": 11,
-        "make": "BMW",
-        "model": "3 Series",
-        "year": 2012,
-        "price": 28000,
-        "description": "A high-performance and luxurious compact luxury car."
+        "make": "Nissan",
+        "model": "Sentra",
+        "year": 2020,
+        "price": 19000,
+        "description": "A compact car with good value."
     },
     {
         "id": 12,
-        "make": "Mercedes-Benz",
-        "model": "C-Class",
-        "year": 2011,
-        "price": 30000,
-        "description": "A luxurious and feature-rich compact luxury car."
+        "make": "Nissan",
+        "model": "Rogue",
+        "year": 2021,
+        "price": 26000,
+        "description": "A compact SUV with a good driving experience."
     },
     {
         "id": 13,
-        "make": "Chevrolet",
-        "model": "Cruze",
-        "year": 2010,
-        "price": 12000,
-        "description": "A reliable and affordable compact car."
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2022,
+        "price": 21000,
+        "description": "A reliable compact car."
     },
     {
         "id": 14,
-        "make": "Dodge",
-        "model": "Challenger",
-        "year": 2009,
-        "price": 15000,
-        "description": "A powerful and iconic muscle car."
+        "make": "Hyundai",
+        "model": "Sonata",
+        "year": 2020,
+        "price": 24000,
+        "description": "A midsize sedan with advanced features."
     },
     {
         "id": 15,
-        "make": "Jeep",
-        "model": "Wrangler",
-        "year": 2008,
-        "price": 18000,
-        "description": "A rugged and off-road-capable SUV."
+        "make": "Hyundai",
+        "model": "Tucson",
+        "year": 2021,
+        "price": 27000,
+        "description": "A compact SUV with a modern design."
     },
     {
         "id": 16,
-        "make": "Fiat",
-        "model": "500",
-        "year": 2007,
-        "price": 8000,
-        "description": "A stylish and fuel-efficient subcompact car."
+        "make": "Kia",
+        "model": "Optima",
+        "year": 2022,
+        "price": 23000,
+        "description": "A midsize sedan with a sleek design."
     },
     {
         "id": 17,
-        "make": "Mini",
-        "model": "Cooper",
-        "year": 2006,
-        "price": 10000,
-        "description": "A fun-to-drive and stylish subcompact car."
+        "make": "Kia",
+        "model": "Sorento",
+        "year": 2021,
+        "price": 28000,
+        "description": "A midsize SUV with a luxurious interior."
     },
     {
         "id": 18,
-        "make": "Porsche",
-        "model": "Boxster",
-        "year": 2005,
+        "make": "Kia",
+        "model": "Sportage",
+        "year": 2020,
         "price": 25000,
-        "description": "A high-performance and luxurious sports car."
+        "description": "A compact SUV with a sporty feel."
     },
     {
         "id": 19,
-        "make": "Lexus",
-        "model": "IS",
-        "year": 2004,
-        "price": 20000,
-        "description": "A luxurious and feature-rich compact luxury car."
+        "make": "Volkswagen",
+        "model": "Golf",
+        "year": 2022,
+        "price": 22000,
+        "description": "A compact hatchback with a modern design."
     },
     {
         "id": 20,
+        "make": "Volkswagen",
+        "model": "Jetta",
+        "year": 2021,
+        "price": 24000,
+        "description": "A midsize sedan with advanced safety features."
+    },
+    {
+        "id": 21,
+        "make": "Volkswagen",
+        "model": "Tiguan",
+        "year": 2020,
+        "price": 27000,
+        "description": "A compact SUV with a premium feel."
+    },
+    {
+        "id": 22,
+        "make": "Subaru",
+        "model": "Impreza",
+        "year": 2022,
+        "price": 23000,
+        "description": "A compact sedan with all-wheel drive."
+    },
+    {
+        "id": 23,
+        "make": "Subaru",
+        "model": "Forester",
+        "year": 2021,
+        "price": 26000,
+        "description": "A compact SUV with a rugged design."
+    },
+    {
+        "id": 24,
+        "make": "Subaru",
+        "model": "Outback",
+        "year": 2020,
+        "price": 29000,
+        "description": "A versatile station wagon with all-wheel drive."
+    },
+    {
+        "id": 25,
+        "make": "Mazda",
+        "model": "Mazda3",
+        "year": 2022,
+        "price": 21000,
+        "description": "A compact sedan with a sporty feel."
+    },
+    {
+        "id": 26,
+        "make": "Mazda",
+        "model": "CX-5",
+        "year": 2021,
+        "price": 25000,
+        "description": "A compact SUV with a stylish design."
+    },
+    {
+        "id": 27,
+        "make": "Mazda",
+        "model": "MX-5 Miata",
+        "year": 2020,
+        "price": 28000,
+        "description": "A sporty roadster with a classic design."
+    },
+    {
+        "id": 28,
+        "make": "Audi",
+        "model": "A4",
+        "year": 2022,
+        "price": 40000,
+        "description": "A premium midsize sedan with advanced features."
+    },
+    {
+        "id": 29,
+        "make": "Audi",
+        "model": "A6",
+        "year": 2021,
+        "price": 48000,
+        "description": "A luxurious full-size sedan."
+    },
+    {
+        "id": 30,
+        "make": "Audi",
+        "model": "Q5",
+        "year": 2020,
+        "price": 42000,
+        "description": "A premium compact SUV."
+    },
+    {
+        "id": 31,
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 2022,
+        "price": 42000,
+        "description": "A sporty midsize sedan."
+    },
+    {
+        "id": 32,
+        "make": "BMW",
+        "model": "5 Series",
+        "year": 2021,
+        "price": 50000,
+        "description": "A luxurious full-size sedan."
+    },
+    {
+        "id": 33,
+        "make": "BMW",
+        "model": "X5",
+        "year": 2020,
+        "price": 60000,
+        "description": "A premium full-size SUV."
+    },
+    {
+        "id": 34,
+        "make": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2022,
+        "price": 41000,
+        "description": "A premium compact sedan."
+    },
+    {
+        "id": 35,
+        "make": "Mercedes-Benz",
+        "model": "E-Class",
+        "year": 2021,
+        "price": 52000,
+        "description": "A luxurious midsize sedan."
+    },
+    {
+        "id": 36,
+        "make": "Mercedes-Benz",
+        "model": "GLE",
+        "year": 2020,
+        "price": 62000,
+        "description": "A premium midsize SUV."
+    },
+    {
+        "id": 37,
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 2022,
+        "price": 20000,
+        "description": "A compact sedan with a modern design."
+    },
+    {
+        "id": 38,
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "year": 2021,
+        "price": 23000,
+        "description": "A midsize sedan with advanced safety features."
+    },
+    {
+        "id": 39,
+        "make": "Chevrolet",
+        "model": "Equinox",
+        "year": 2020,
+        "price": 26000,
+        "description": "A compact SUV with a modern design."
+    },
+    {
+        "id": 40,
+        "make": "Dodge",
+        "model": "Challenger",
+        "year": 2022,
+        "price": 35000,
+        "description": "A powerful sports car with a classic design."
+    },
+    {
+        "id": 41,
+        "make": "Dodge",
+        "model": "Charger",
+        "year": 2021,
+        "price": 32000,
+        "description": "A full-size sedan with a modern design."
+    },
+    {
+        "id": 42,
+        "make": "Dodge",
+        "model": "Durango",
+        "year": 2020,
+        "price": 37000,
+        "description": "A full-size SUV with a luxurious interior."
+    },
+    {
+        "id": 43,
+        "make": "Jeep",
+        "model": "Wrangler",
+        "year": 2022,
+        "price": 30000,
+        "description": "A classic SUV with off-road capabilities."
+    },
+    {
+        "id": 44,
+        "make": "Jeep",
+        "model": "Grand Cherokee",
+        "year": 2021,
+        "price": 38000,
+        "description": "A full-size SUV with a luxurious interior."
+    },
+    {
+        "id": 45,
+        "make": "Jeep",
+        "model": "Renegade",
+        "year": 2020,
+        "price": 24000,
+        "description": "A compact SUV with a modern design."
+    },
+    {
+        "id": 46,
+        "make": "Fiat",
+        "model": "500",
+        "year": 2022,
+        "price": 16000,
+        "description": "A small city car with a unique design."
+    },
+    {
+        "id": 47,
+        "make": "Fiat",
+        "model": "500L",
+        "year": 2021,
+        "price": 20000,
+        "description": "A small SUV with a spacious interior."
+    },
+    {
+        "id": 48,
+        "make": "Fiat",
+        "model": "500X",
+        "year": 2020,
+        "price": 24000,
+        "description": "A small SUV with a stylish design."
+    },
+    {
+        "id": 49,
+        "make": "Mini",
+        "model": "Cooper",
+        "year": 2022,
+        "price": 23000,
+        "description": "A small city car with a unique design."
+    },
+    {
+        "id": 50,
+        "make": "Mini",
+        "model": "Countryman",
+        "year": 2021,
+        "price": 28000,
+        "description": "A small SUV with a spacious interior."
+    },
+    {
+        "id": 51,
+        "make": "Mini",
+        "model": "Clubman",
+        "year": 2020,
+        "price": 25000,
+        "description": "A small hatchback with a unique design."
+    },
+    {
+        "id": 52,
+        "make": "Porsche",
+        "model": "911",
+        "year": 2022,
+        "price": 90000,
+        "description": "A sporty sports car with a classic design."
+    },
+    {
+        "id": 53,
+        "make": "Porsche",
+        "model": "Boxster",
+        "year": 2021,
+        "price": 65000,
+        "description": "A sporty roadster with a modern design."
+    },
+    {
+        "id": 54,
+        "make": "Porsche",
+        "model": "Cayenne",
+        "year": 2020,
+        "price": 60000,
+        "description": "A premium midsize SUV."
+    },
+    {
+        "id": 55,
+        "make": "Lexus",
+        "model": "IS",
+        "year": 2022,
+        "price": 38000,
+        "description": "A premium compact sedan."
+    },
+    {
+        "id": 56,
+        "make": "Lexus",
+        "model": "ES",
+        "year": 2021,
+        "price": 42000,
+        "description": "A luxurious midsize sedan."
+    },
+    {
+        "id": 57,
+        "make": "Lexus",
+        "model": "RX",
+        "year": 2020,
+        "price": 45000,
+        "description": "A premium compact SUV."
+    },
+    {
+        "id": 58,
         "make": "Infiniti",
-        "model": "G37",
-        "year": 2003,
-        "price": 18000,
-        "description": "A luxurious and high-performance compact luxury car."
+        "model": "Q50",
+        "year": 2022,
+        "price": 36000,
+        "description": "A premium compact sedan."
+    },
+    {
+        "id": 59,
+        "make": "Infiniti",
+        "model": "QX50",
+        "year": 2021,
+        "price": 40000,
+        "description": "A premium compact SUV."
+    },
+    {
+        "id": 60,
+        "make": "Infiniti",
+        "model": "QX70",
+        "year": 2020,
+        "price": 50000,
+        "description": "A full-size SUV with a luxurious interior."
     }
 ]
