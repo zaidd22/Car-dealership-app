@@ -14,5 +14,149 @@
         "year": 2019,
         "price": 18000,
         "description": "A popular compact car."
+    },
+    {
+        "id": 3,
+        "make": "Ford",
+        "model": "Fusion",
+        "year": 2018,
+        "price": 15000,
+        "description": "A comfortable mid-size sedan."
+    },
+    {
+        "id": 4,
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2021,
+        "price": 22000,
+        "description": "A feature-packed sedan with good fuel economy."
+    },
+    {
+        "id": 5,
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2017,
+        "price": 12000,
+        "description": "A reliable and affordable compact car."
+    },
+    {
+        "id": 6,
+        "make": "Kia",
+        "model": "Optima",
+        "year": 2016,
+        "price": 18000,
+        "description": "A stylish and feature-rich mid-size sedan."
+    },
+    {
+        "id": 7,
+        "make": "Volkswagen",
+        "model": "Golf",
+        "year": 2015,
+        "price": 10000,
+        "description": "A fun-to-drive and fuel-efficient hatchback."
+    },
+    {
+        "id": 8,
+        "make": "Subaru",
+        "model": "Impreza",
+        "year": 2014,
+        "price": 14000,
+        "description": "A safe and reliable compact car with all-wheel drive."
+    },
+    {
+        "id": 9,
+        "make": "Mazda",
+        "model": "3",
+        "year": 2022,
+        "price": 25000,
+        "description": "A sporty and fun-to-drive compact car."
+    },
+    {
+        "id": 10,
+        "make": "Audi",
+        "model": "A4",
+        "year": 2013,
+        "price": 20000,
+        "description": "A luxurious and feature-rich compact luxury car."
+    },
+    {
+        "id": 11,
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 2012,
+        "price": 28000,
+        "description": "A high-performance and luxurious compact luxury car."
+    },
+    {
+        "id": 12,
+        "make": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2011,
+        "price": 30000,
+        "description": "A luxurious and feature-rich compact luxury car."
+    },
+    {
+        "id": 13,
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 2010,
+        "price": 12000,
+        "description": "A reliable and affordable compact car."
+    },
+    {
+        "id": 14,
+        "make": "Dodge",
+        "model": "Challenger",
+        "year": 2009,
+        "price": 15000,
+        "description": "A powerful and iconic muscle car."
+    },
+    {
+        "id": 15,
+        "make": "Jeep",
+        "model": "Wrangler",
+        "year": 2008,
+        "price": 18000,
+        "description": "A rugged and off-road-capable SUV."
+    },
+    {
+        "id": 16,
+        "make": "Fiat",
+        "model": "500",
+        "year": 2007,
+        "price": 8000,
+        "description": "A stylish and fuel-efficient subcompact car."
+    },
+    {
+        "id": 17,
+        "make": "Mini",
+        "model": "Cooper",
+        "year": 2006,
+        "price": 10000,
+        "description": "A fun-to-drive and stylish subcompact car."
+    },
+    {
+        "id": 18,
+        "make": "Porsche",
+        "model": "Boxster",
+        "year": 2005,
+        "price": 25000,
+        "description": "A high-performance and luxurious sports car."
+    },
+    {
+        "id": 19,
+        "make": "Lexus",
+        "model": "IS",
+        "year": 2004,
+        "price": 20000,
+        "description": "A luxurious and feature-rich compact luxury car."
+    },
+    {
+        "id": 20,
+        "make": "Infiniti",
+        "model": "G37",
+        "year": 2003,
+        "price": 18000,
+        "description": "A luxurious and high-performance compact luxury car."
     }
 ]
