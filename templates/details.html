@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ car.make }} {{ car.model }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>{{ car.make }} {{ car.model }}</h1>
+    <p>Year: {{ car.year }}</p>
+    <p>Price: ${{ car.price }}</p>
+    <p>{{ car.description }}</p>
+    <a href="{{ url_for('home') }}">Back to home</a>
+</body>
+</html>
