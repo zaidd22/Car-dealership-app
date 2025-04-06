@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Car Dealership</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
-    <h1>Welcome to Our Car Dealership</h1>
-    <form method="GET" action="{{ url_for('home') }}">
-        <input type="text" name="search" placeholder="Search by make or model">
-        <select name="sort">
-            <option value="price_asc">Price: Low to High</option>
-            <option value="price_desc">Price: High to Low</option>
-            <option value="year_asc">Year: Old to New</option>
-            <option value="year_desc">Year: New to Old</option>
-        </select>
-        <button type="submit">Apply</button>
-    </form>
+    <header>
+        <nav>
+            <h1>Welcome to Our Car Dealership</h1>
+        </nav>
+        <div class="search-bar">
+            <form method="GET" action="{{ url_for('home') }}">
+                <input type="text" name="search" placeholder="Search by make or model">
+                <select name="sort">
+                    <option value="price_asc">Price: Low to High</option>
+                    <option value="price_desc">Price: High to Low</option>
+                    <option value="year_asc">Year: Old to New</option>
+                    <option value="year_desc">Year: New to Old</option>
+                </select>
+                <button type="submit">Apply</button>
+            </form>
+        </div>
+    </header>
     <ul>
         {% for car in cars %}
-            <li>
-                <a href="{{ url_for('car_details', car_id=car.id) }}">
-                    {{ car.make }} {{ car.model }} ({{ car.year }})
-                </a>
-            </li>
+        <li>
+            <a href="{{ url_for('car_details', car_id=car.id) }}">
+                {{ car.make }} {{ car.model }} ({{ car.year }})
+            </a>
+        </li>
         {% endfor %}
     </ul>
-    
+
     <footer>
         <p>&copy; 2025 Luxury Vehicles. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
