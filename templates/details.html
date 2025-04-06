@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>{{ car.make }} {{ car.model }}</h1>
-    <p>Year: {{ car.year }}</p>
-    <p>Price: ${{ car.price }}</p>
-    <p>{{ car.description }}</p>
-    <a href="{{ url_for('home') }}">Back to home</a>
+    <div class="car-details-container">
+        <h1>{{ car.make }} {{ car.model }}</h1>
+        <p><strong>Year:</strong> {{ car.year }}</p>
+        <p><strong>Price:</strong> ${{ car.price }}</p>
+        <p>{{ car.description }}</p>
+        <a href="{{ url_for('home') }}">← Back to home</a>
+    </div>
 
     <footer>
         <p>&copy; 2025 Luxury Vehicles. All rights reserved.</p>
     </footer>
-    
 </body>
 </html>
