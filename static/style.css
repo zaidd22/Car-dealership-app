@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -44,6 +50,7 @@ a:hover {
 .vehicle-info {
     padding: 1rem;
 }
+
 
 .vehicle-price {
     font-size: 1.25rem;
