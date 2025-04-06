@@ -13,6 +13,17 @@ h1 {
     color: #333;
 }
 
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search-bar {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
