@@ -41,3 +41,22 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.vehicle-info {
+    padding: 1rem;
+}
+
+.vehicle-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
