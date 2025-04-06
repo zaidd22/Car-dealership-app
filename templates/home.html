@@ -15,7 +15,7 @@
 
             <div class="search-bar">
                 <form method="GET" action="{{ url_for('home') }}">
-                    <input type="text" name="searchInput" placeholder="Search by make or model">
+                    <input type="text" name="search" placeholder="Search by make or model">
                     <select name="sort" id="sortSelect">
                         <option value="price_asc">Price: Low to High</option>
                         <option value="price_desc">Price: High to Low</option>
@@ -27,15 +27,18 @@
             </div>
         </nav>
     </header>
-    <ul>
+
+    <div class="vehicle-grid">
         {% for car in cars %}
-        <li>
+        <div class="vehicle-card">
             <a href="{{ url_for('car_details', car_id=car.id) }}">
-                {{ car.make }} {{ car.model }} ({{ car.year }})
+                <h3>{{ car.make }} {{ car.model }}</h3>
+                <p>Year: {{ car.year }}</p>
             </a>
-        </li>
+        </div>
         {% endfor %}
-    </ul>
+    </div>
+
 
     <footer>
         <p>&copy; 2025 Luxury Vehicles. All rights reserved.</p>
