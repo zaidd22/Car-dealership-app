@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Dealership</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
@@ -11,19 +12,20 @@
     <header>
         <nav>
             <h1>Welcome to Our Car Dealership</h1>
+
+            <div class="search-bar">
+                <form method="GET" action="{{ url_for('home') }}">
+                    <input type="text" name="searchInput" placeholder="Search by make or model">
+                    <select name="sort" id="sortSelect">
+                        <option value="price_asc">Price: Low to High</option>
+                        <option value="price_desc">Price: High to Low</option>
+                        <option value="year_asc">Year: Old to New</option>
+                        <option value="year_desc">Year: New to Old</option>
+                    </select>
+                    <button type="submit">Apply</button>
+                </form>
+            </div>
         </nav>
-        <div class="search-bar">
-            <form method="GET" action="{{ url_for('home') }}">
-                <input type="text" name="search" placeholder="Search by make or model">
-                <select name="sort">
-                    <option value="price_asc">Price: Low to High</option>
-                    <option value="price_desc">Price: High to Low</option>
-                    <option value="year_asc">Year: Old to New</option>
-                    <option value="year_desc">Year: New to Old</option>
-                </select>
-                <button type="submit">Apply</button>
-            </form>
-        </div>
     </header>
     <ul>
         {% for car in cars %}

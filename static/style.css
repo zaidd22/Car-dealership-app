@@ -6,7 +6,6 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
     background-color: #f4f4f4;
 }
 
@@ -16,13 +15,27 @@ header {
     padding: 1rem;
 }
 
-h1 {
-    color: #333;
-}
 
 nav {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+}
+
+button[type="submit"] {
+    background-color: #e7e0e0;;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+
+button[type="submit"]:hover {
+    background-color: #e7e0e0;
 }
 
 .search-bar {
@@ -64,6 +77,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 .vehicle-info {
     padding: 1rem;
 }
