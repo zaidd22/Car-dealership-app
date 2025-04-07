@@ -14,6 +14,29 @@ def load_cars():
     except json.JSONDecodeError:
         return []  # Return empty list if JSON is invalid
 
+# bubble sort function for sorting cars
+def bubble_sort_cars(cars, key, reverse=False):
+    #sort the cars list using bubble sort based on a key (price or year).
+    n = len(cars)
+    for i in range(n):
+        swapped = False
+        for j in range(0, n - i - 1):
+            # compare the adjacent elements based on the specified key
+            if not reverse:
+                # Ascending order
+                if cars[j][key] > cars[j + 1][key]:
+                    cars[j], cars[j + 1] = cars[j + 1], cars[j]
+                    swapped = True
+            else:
+                # Descending order
+                if cars[j][key] < cars[j + 1][key]:
+                    cars[j], cars[j + 1] = cars[j + 1], cars[j]
+                    swapped = True
+        # If no swaps occurred, the list is already sorted
+        if not swapped:
+            break
+    return cars
+
 # Route for the homepage
 @app.route('/')
 def home():
@@ -31,13 +54,13 @@ def home():
     
     # Sort cars based on sort option
     if sort_option == 'price_asc':
-        cars.sort(key=lambda x: x['price'])
+        cars = bubble_sort_cars(cars, 'price', reverse=False)
     elif sort_option == 'price_desc':
-        cars.sort(key=lambda x: x['price'], reverse=True)
+        cars = bubble_sort_cars(cars, 'price', reverse=True)
     elif sort_option == 'year_asc':
-        cars.sort(key=lambda x: x['year'])
+        cars = bubble_sort_cars(cars, 'year', reverse=False)
     elif sort_option == 'year_desc':
-        cars.sort(key=lambda x: x['year'], reverse=True)
+        cars = bubble_sort_cars(cars, 'year', reverse=True)
     
     # Render the home template with the filtered and sorted cars
     return render_template('home.html', cars=cars)
